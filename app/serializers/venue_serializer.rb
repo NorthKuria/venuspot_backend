@@ -1,3 +1,3 @@
 class VenueSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :name, :description, :num_baths, :num_beds, :manager_id, :location
 end
